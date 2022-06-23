@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 
 const Inicio = () => {
+ 
   return (
     
        <div className='home'>
@@ -12,9 +13,9 @@ const Inicio = () => {
           <h2>Hola, mi nombre es Gustavo</h2>
           <div className="prompt">
             <p>Full Stack Developer con pasión por aprender y crear</p>
-            <EmailIcon/>
-            <LinkedInIcon/>
-            <GitHubIcon/>
+          <a href="mailto:gustavogallesio@hotmail.com"> <EmailIcon /></a>
+           <a href="https://www.linkedin.com/in/gustavogallesio/"> <LinkedInIcon/></a>
+           <a href="https://github.com/guenga1968"> <GitHubIcon/></a>
           </div>
         </div>
         <div className='skills'>
